@@ -1,0 +1,30 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React Practice",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therebel05/React-Prac.git"
+  },
+  "author": "Akshay Raut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therebel05/React-Prac/issues"
+  },
+  "homepage": "https://github.com/therebel05/React-Prac#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
