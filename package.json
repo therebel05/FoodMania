@@ -1,7 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "React Practice",
+  "description": "Food Delivery App",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/therebel05/React-Prac.git"
+    "url": "git+https://github.com/therebel05/FoodMania.git"
   },
   "author": "Akshay Raut",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/therebel05/React-Prac/issues"
+    "url": "https://github.com/therebel05/FoodMania/issues"
   },
-  "homepage": "https://github.com/therebel05/React-Prac#readme",
+  "homepage": "https://github.com/therebel05/FoodMania#readme",
   "devDependencies": {
     "parcel": "^2.16.1"
   },

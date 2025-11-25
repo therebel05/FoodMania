@@ -1,3 +1,41 @@
-#heading {
-  color: red;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 20px;
+}
+
+.search {
+  margin-block-end: 20px;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  margin: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.res-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
 }
