@@ -9,6 +9,11 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .heading {
   display: flex;
   border: 1px solid black;
@@ -38,4 +43,15 @@ img {
 .res-card:hover {
   border: 1px solid black;
   cursor: pointer;
+}
+
+.shimmer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.shimmer-card {
+  height: 300px;
+  background-color: #f0f0f0;
 }
